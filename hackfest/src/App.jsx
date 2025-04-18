@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Home1 from './components/Home1'
 import About from './components/About'
 import Navbar2 from './components/Navbar2';
+import Home2 from './components/Home2'
 
 function App() {
   const router = createBrowserRouter([
@@ -22,8 +23,8 @@ function App() {
       element: <><Navbar/><About/></>,
     },
     {
-      path: "/navbar2",
-      element: <><Navbar2/><About/></>,
+      path: "/home2",
+      element: <><Navbar2/><Home2/></>,
     }
   ])
     {
