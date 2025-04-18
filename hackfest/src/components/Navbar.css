@@ -1,0 +1,43 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    background-color: aliceblue;
+
+}
+.nav-links{
+    text-decoration: none;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.profile{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile li{
+    list-style: none;
+}
+.profile li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
