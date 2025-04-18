@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css'
 import Navbar from './components/Navbar'
-import Home from './components/Home'
+import Home1 from './components/Home1'
 
 function App() {
   const router = createBrowserRouter([
@@ -13,7 +13,7 @@ function App() {
     },
     {
       path: "/home",
-      element: <><Navbar/><Home/></>,
+      element: <><Navbar/><Home1/></>,
     }
   ])
     {
