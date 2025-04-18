@@ -14,10 +14,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook": "^0.0.1",
-<<<<<<< HEAD
-=======
     "react-hook-form": "^7.55.0",
->>>>>>> b9c8fadbc96d59d8a96cd5969511da92a2f14362
     "react-router-dom": "^7.5.1"
   },
   "devDependencies": {

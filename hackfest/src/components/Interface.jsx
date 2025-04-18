@@ -19,7 +19,7 @@ function Interface() {
     <div className='container'>
         <h1>Please select the option</h1>
         <div className='options'>
-            <button onClick={farmer}>Farmer</button>
+            <button onClick={farmer}>Seller</button>
             <button onClick={buyer}>Buyer</button>
         </div>
     </div>

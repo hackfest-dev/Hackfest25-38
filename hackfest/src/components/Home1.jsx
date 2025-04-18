@@ -28,7 +28,7 @@ const home= () => {
     return (
       <>
       <div classname="welcome" >
-        <h1>HOME</h1>
+    
       </div>
 
       <div className="weather-app">
