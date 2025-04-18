@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css'
 import Navbar from './components/Navbar'
+import Card from './components/Card'
 import Home1 from './components/Home1'
 import About from './components/About'
 import Navbar2 from './components/Navbar2';
@@ -28,8 +29,13 @@ function App() {
       element: <><Interface/></>,
     },
     {
+<<<<<<< HEAD
       path: "/sellwaste",
       element: <><Navbar/><SellWaste/></>,
+=======
+      path: "/card",
+      element: <><Card/></>,
+>>>>>>> e535b1881ea5d27367963e36718c8c27453362df
     }
   ])
     {
