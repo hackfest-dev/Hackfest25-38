@@ -20,12 +20,16 @@ function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:3001/register',{username, email, password})
-    .then(res => {console.log(res)
-    navigate('/')
-    })
-    .catch(err => console.log(err));
-  };
+    console.log('Submitting data:', { username, email, password });  
+    axios.post('http://localhost:3001/api/register', { username, email, password })
+        .then(res => {
+            console.log('User registered:', res.data);
+            navigate('/login');
+        })
+        .catch(err => {
+            console.error('Registration error:', err.response?.data || err);  
+        });
+};
 
   return (
     <div className='registercenter'>
@@ -91,7 +95,7 @@ function Register() {
             <a href="#" onClick={(e) => {
               e.preventDefault();
               
-              navigate('/');
+              navigate('/login'); // Redirect to login page
             }}>Login</a>
           </p>
         </div>

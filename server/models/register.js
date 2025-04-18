@@ -1,19 +1,19 @@
 const mongoose = require('mongoose');
 
 const RegisterSchema = new mongoose.Schema({
-    name: {
+    username: {
         type: String,
-        required: true,
+        required: true
     },
     email: {
         type: String,
         required: true,
-        unique: true,
+        unique: true
     },
     password: {
         type: String,
-        required: true,
-    },
+        required: true
+    }
 });
 
 const RegisterModel = mongoose.model('Register', RegisterSchema);
