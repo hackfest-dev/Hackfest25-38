@@ -13,11 +13,8 @@ import Interface from './components/Interface';
 import SellWaste from './components/SellWaste';
 import Login from './components/Login'
 import Register from './components/Register'
-<<<<<<< HEAD
-import Profile from './components/Profile';
-=======
 import Buywaste from './components/Buywaste';
->>>>>>> 12fed2dcf389d38d859801e7ba0068f597c61ea1
+import Profile from './components/Profile'
 
 function App() {
   const router = createBrowserRouter([
