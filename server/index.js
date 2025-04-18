@@ -15,6 +15,9 @@ app.use('/api', registerRoute);
 const loginRoute = require('./routes/login');
 app.use('/api', loginRoute);  
 
+const sellWasteRoute = require('./routes/sellwaste');
+app.use('/api', sellWasteRoute);
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
     console.log(`Server started on port ${3001}`);
