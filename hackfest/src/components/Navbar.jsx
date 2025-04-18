@@ -8,10 +8,7 @@ function Navbar() {
     <>
         <nav>
             <div className="logo">
-                <div className='img'>
-                    
-                </div>
-            
+                <h1>Agrigo</h1>
             </div>
             <div className="nav-links">
                 <li><NavLink to="/home1">Home</NavLink></li>
