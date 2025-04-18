@@ -11,6 +11,7 @@ import Navbar2 from './components/Navbar2';
 import Home2 from './components/Home2'
 import Interface from './components/Interface';
 import SellWaste from './components/SellWaste';
+import Buywaste from './components/Buywaste';
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
     {
       path: "/sellwaste",
       element: <><Navbar/><SellWaste/><Footer/></>,
+    },
+    {
+      path: "/buywaste",
+      element: <><Navbar2/><Buywaste/><Footer/></>,
     },
     {
       path: "/card",

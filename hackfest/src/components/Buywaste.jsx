@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Card from './Card'
-import { Buffer } from 'buffer';
 
 function Buywaste() {
     const [product,setProduct]=React.useState([]);
