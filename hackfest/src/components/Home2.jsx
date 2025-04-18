@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import sunny from "../images/sunny.png";
 import './Home.css'
 
-const home= () => {
+const Home2= () => {
     const [location, setLocation] = useState("");
     const [data, setData] = useState({});
     const [user, setUser] = useState({
@@ -85,7 +85,17 @@ const home= () => {
               </div>
             </div>
             </>
+
+
+
+
+
+
+
+
+
+
     );
 };
 
-export default home;
+export default Home2;
