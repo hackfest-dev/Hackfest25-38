@@ -9,7 +9,7 @@ const Card=({productImage,productName,productDescription,productPrice,productQua
         navigate('/address');
     }
     return(
-    <container>
+    <div className='card-container'>
             <image>
                 <img src={productImage} alt="img" />
             </image>
@@ -20,7 +20,7 @@ const Card=({productImage,productName,productDescription,productPrice,productQua
                 <p>{productQuantity}</p>
                 <button onClick={Buywaste}>Buy</button>
             </description>
-    </container>
+    </div>
     );
 };
 
