@@ -9,6 +9,7 @@ import About from './components/About'
 import Navbar2 from './components/Navbar2';
 import Home2 from './components/Home2'
 import Interface from './components/Interface';
+import SellWaste from './components/SellWaste';
 
 function App() {
   const router = createBrowserRouter([
@@ -29,16 +30,16 @@ function App() {
       element: <><Interface/></>,
     },
     {
-<<<<<<< HEAD
       path: "/sellwaste",
       element: <><Navbar/><SellWaste/></>,
-=======
+    },
+    {
       path: "/card",
       element: <><Card/></>,
->>>>>>> e535b1881ea5d27367963e36718c8c27453362df
+      
     }
   ])
-    {
+  {
   return (
     <>
       <RouterProvider router={router} />
