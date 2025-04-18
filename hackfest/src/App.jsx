@@ -12,10 +12,6 @@ import Interface from './components/Interface';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
-      element: <><Navbar/></>,
-    },
-    {
       path: "/home1",
       element: <><Navbar/><Home1/></>,
     },
@@ -28,8 +24,12 @@ function App() {
       element: <><Navbar2/><Home2/></>,
     },
     {
-      path: "/interface",
+      path: "/",
       element: <><Interface/></>,
+    },
+    {
+      path: "/sellwaste",
+      element: <><Navbar/><SellWaste/></>,
     }
   ])
     {
