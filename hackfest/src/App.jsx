@@ -11,7 +11,8 @@ import Navbar2 from './components/Navbar2';
 import Home2 from './components/Home2'
 import Interface from './components/Interface';
 import SellWaste from './components/SellWaste';
-import Buywaste from './components/Buywaste';
+import Login from './components/Login'
+import Register from './components/Register'
 
 function App() {
   const router = createBrowserRouter([
@@ -36,13 +37,17 @@ function App() {
       element: <><Navbar/><SellWaste/><Footer/></>,
     },
     {
-      path: "/buywaste",
-      element: <><Navbar2/><Buywaste/><Footer/></>,
-    },
-    {
       path: "/card",
       element: <><Card/></>,
     },
+    {
+      path: "/login",
+      element: <><Navbar/><Login/></>,
+    },
+    {
+      path: "/register",
+      element: <><Navbar/><Register/></>,
+    }
   ])
   {
   return (
