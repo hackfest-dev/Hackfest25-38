@@ -16,15 +16,15 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/home1",
-      element: <><Navbar/><Home1/></>,
+      element: <><Navbar/><Home1/><Footer/></>,
     },
     {
       path: "/about",
-      element: <><Navbar/><About/></>,
+      element: <><Navbar/><About/><Footer/></>,
     },
     {
       path: "/home2",
-      element: <><Navbar2/><Home2/></>,
+      element: <><Navbar2/><Home2/><Footer/></>,
     },
     {
       path: "/",
@@ -32,16 +32,12 @@ function App() {
     },
     {
       path: "/sellwaste",
-      element: <><Navbar/><SellWaste/></>,
+      element: <><Navbar/><SellWaste/><Footer/></>,
     },
     {
       path: "/card",
       element: <><Card/></>,
     },
-    {
-      path: "/footer",
-      element: <><Footer/></>,
-    }
   ])
   {
   return (
