@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home1 from './components/Home1'
 import About from './components/About'
+import Navbar2 from './components/Navbar2';
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +20,10 @@ function App() {
     {
       path: "/about",
       element: <><Navbar/><About/></>,
+    },
+    {
+      path: "/navbar2",
+      element: <><Navbar2/><About/></>,
     }
   ])
     {
