@@ -13,6 +13,7 @@ import Interface from './components/Interface';
 import SellWaste from './components/SellWaste';
 import Login from './components/Login'
 import Register from './components/Register'
+import Buywaste from './components/Buywaste';
 
 function App() {
   const router = createBrowserRouter([
@@ -35,6 +36,10 @@ function App() {
     {
       path: "/sellwaste",
       element: <><Navbar/><SellWaste/><Footer/></>,
+    },
+    {
+      path: "/buywaste",
+      element: <><Navbar2/><Buywaste/><Footer/></>,
     },
     {
       path: "/card",
