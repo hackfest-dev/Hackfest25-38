@@ -31,7 +31,7 @@ function App() {
       element: <><Navbar2/><Home2/><Footer/></>,
     },
     {
-      path: "/",
+      path: "/interface",
       element: <><Interface/></>,
     },
     {
@@ -47,7 +47,7 @@ function App() {
       element: <><Card/></>,
     },
     {
-      path: "/login",
+      path: "/",
       element: <><Navbar/><Login/></>,
     },
     {

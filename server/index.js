@@ -12,7 +12,8 @@ app.use(cors());
 const registerRoute = require('./routes/register');
 app.use('/api', registerRoute);
 
- 
+const loginRoute = require('./routes/login');
+app.use('/api', loginRoute);  
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

@@ -24,7 +24,7 @@ function Register() {
     axios.post('http://localhost:3001/api/register', { username, email, password })
         .then(res => {
             console.log('User registered:', res.data);
-            navigate('/login');
+            navigate('/');
         })
         .catch(err => {
             console.error('Registration error:', err.response?.data || err);  
@@ -95,7 +95,7 @@ function Register() {
             <a href="#" onClick={(e) => {
               e.preventDefault();
               
-              navigate('/login'); // Redirect to login page
+              navigate('/'); // Redirect to login page
             }}>Login</a>
           </p>
         </div>
