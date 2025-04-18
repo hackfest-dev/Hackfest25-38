@@ -13,6 +13,7 @@ import Interface from './components/Interface';
 import SellWaste from './components/SellWaste';
 import Login from './components/Login'
 import Register from './components/Register'
+import Profile from './components/Profile';
 
 function App() {
   const router = createBrowserRouter([
@@ -47,6 +48,10 @@ function App() {
     {
       path: "/register",
       element: <><Navbar/><Register/></>,
+    },
+    {
+      path: "/profile",
+      element: <><Navbar/><Profile/></>,
     }
   ])
   {

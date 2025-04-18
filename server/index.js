@@ -9,8 +9,15 @@ connection();
 app.use(express.json());
 app.use(cors());
 
+const registerRoute = require('./routes/register');
+app.use('/api', registerRoute);
+
+ 
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
     console.log(`Server started on port ${3001}`);
 });
+
+
+
