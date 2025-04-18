@@ -6,12 +6,17 @@ nav{
 .logo{
     width: 20%;
     background-color: aliceblue;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 .nav-links{
     text-decoration: none;
     width: 60%;
+    background-color: aliceblue;
     display: flex;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
 }

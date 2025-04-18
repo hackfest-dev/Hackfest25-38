@@ -17,7 +17,7 @@ const Card=({productImage,productName,productDescription,productPrice,productQua
                 <button onClick={Buywaste}>Buy</button>
             </description>
     </container>
-    )
-}
+    );
+};
 
 export default Card
