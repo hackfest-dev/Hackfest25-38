@@ -6,7 +6,7 @@ function Buywaste() {
     useEffect(() => {
         const fetchData = async () => {
         try{
-            const response = await fetch('http://localhost:5174/sellwaste');
+            const response = await fetch('http://localhost:5173/sellwaste');
             const data = await response.json();
             console.log(data);
             setProduct(data);
