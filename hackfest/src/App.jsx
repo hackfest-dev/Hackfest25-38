@@ -7,6 +7,7 @@ import Home1 from './components/Home1'
 import About from './components/About'
 import Navbar2 from './components/Navbar2';
 import Home2 from './components/Home2'
+import Interface from './components/Interface';
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
     {
       path: "/home2",
       element: <><Navbar2/><Home2/></>,
+    },
+    {
+      path: "/interface",
+      element: <><Interface/></>,
     }
   ])
     {
