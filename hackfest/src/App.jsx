@@ -15,6 +15,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import Buywaste from './components/Buywaste';
 import Profile from './components/Profile'
+import Address from './components/Address'
 
 function App() {
   const router = createBrowserRouter([
@@ -48,15 +49,19 @@ function App() {
     },
     {
       path: "/",
-      element: <><Navbar/><Login/></>,
+      element: <><Login/></>,
     },
     {
       path: "/register",
-      element: <><Navbar/><Register/></>,
+      element: <><Register/></>,
     },
     {
       path: "/profile",
       element: <><Navbar/><Profile/></>,
+    },
+    {
+      path: "/address",
+      element: <><Navbar2/><Address/></>,
     }
   ])
   {

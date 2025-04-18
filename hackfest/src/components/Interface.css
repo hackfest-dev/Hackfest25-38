@@ -13,7 +13,10 @@
     justify-content: center;
     width: 90vh;
     height: 60vh;
-    background: linear-gradient(to top, #086a06, #04bc04ce);
+    background: transparent;
+    border:2px solid rgba(255, 255, 255, .2) ;
+    backdrop-filter:blur(20px) ;
+    box-shadow:0 0 10px rgba(0, 0, 0, .2) ;
     border-radius: 20px;
 }
 .options{
