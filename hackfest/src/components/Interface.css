@@ -23,7 +23,7 @@ button{
     background-color: #2555a2;
     color: white;
     border: none;
-    padding: 10px 20px;
+    width: 150px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;

@@ -10,13 +10,10 @@ import About from './components/About'
 import Navbar2 from './components/Navbar2';
 import Home2 from './components/Home2'
 import Interface from './components/Interface';
+import SellWaste from './components/SellWaste';
 
 function App() {
   const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <><Navbar/></>,
-    },
     {
       path: "/home1",
       element: <><Navbar/><Home1/></>,
@@ -30,8 +27,12 @@ function App() {
       element: <><Navbar2/><Home2/></>,
     },
     {
-      path: "/interface",
+      path: "/",
       element: <><Interface/></>,
+    },
+    {
+      path: "/sellwaste",
+      element: <><Navbar/><SellWaste/></>,
     },
     {
       path: "/card",
@@ -42,7 +43,7 @@ function App() {
       element: <><Footer/></>,
     }
   ])
-    {
+  {
   return (
     <>
       <RouterProvider router={router} />

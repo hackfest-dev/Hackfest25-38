@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-
-
+import sunny from "../images/sunny.png";
+import './Home.css'
 
 const home= () => {
     const [location, setLocation] = useState("");
@@ -26,9 +26,75 @@ const home= () => {
     };
 
     return (
+      <>
       <div classname="welcome" >
         <h1>HOME</h1>
       </div>
+
+      <div className="weather-app">
+              <div className="search">
+                <div className="search-top">
+                  <i className="fa-solid fa-location-dot"></i>
+                  <div className="location">
+                    {data.name ? data.name : "Enter Location"}
+                  </div>
+                </div>
+                <div className="search-bar">
+                  <input
+                    type="text"
+                    placeholder="Enter Location"
+                    value={location}
+                    onChange={(e) => setLocation(e.target.value)}
+                  />
+                  <i className="fa-solid fa-magnifying-glass" onClick={search}></i>
+                </div>
+              </div>
+      
+              <i className="fa-solid fa-fire fire-icon left"></i>
+              <i className="fa-solid fa-fire fire-icon right"></i>
+      
+              <div className="weather">
+                <img src={sunny} alt="sun" />
+                <div className="weather-type">
+                  {data.weather ? data.weather[0].main : "—"}
+                </div>
+                <div className="temp">
+                  {data.main ? `${Math.round(data.main.temp)}°` : "—"}
+                </div>
+              </div>
+      
+              <div className="weather-date">
+                <p>{new Date().toDateString()}</p>
+              </div>
+      
+              <div className="weather-data">
+                <div className="humidity">
+                  <div className="data-name">Humidity</div>
+                  <i className="fa-solid fa-droplet"></i>
+                  <div className="data">
+                    {data.main ? `${data.main.humidity}%` : "—"}
+                  </div>
+                </div>
+                <div className="wind">
+                  <div className="data-name">Wind</div>
+                  <i className="fa-solid fa-wind"></i>
+                  <div className="data">
+                    {data.wind ? `${data.wind.speed} km/h` : "—"}
+                  </div>
+                </div>
+              </div>
+            </div>
+            </>
+
+
+
+
+
+
+
+
+
+
     );
 };
 
