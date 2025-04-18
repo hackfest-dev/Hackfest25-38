@@ -12,8 +12,8 @@ function App() {
       element: <><Navbar/></>,
     },
     {
-      path: "/home",
-      element: <><Navbar/><Home/></>,
+      path: "/home1",
+      element: <><Navbar/><Home1/></>,
     }
   ])
     {
