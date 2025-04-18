@@ -1,8 +1,10 @@
-body{
+.interface{
     display: flex;
-    height: 100vh;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 .container{
     display: flex;
@@ -11,5 +13,20 @@ body{
     justify-content: center;
     width: 90vh;
     height: 60vh;
-    background-color: #f0f0f0;
+    background-color: rgba(42, 127, 44, 0.812);
+    border-radius: 20px;
 }
+.options{
+    padding: 10px;
+}
+button{
+    background-color: #2555a2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+}
+

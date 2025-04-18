@@ -15,12 +15,14 @@ function Interface() {
     }
 
   return (
+    <div className='interface'>
     <div className='container'>
         <h1>Please select the option</h1>
         <div className='options'>
             <button onClick={farmer}>Farmer</button>
             <button onClick={buyer}>Buyer</button>
         </div>
+    </div>
     </div>
   )
 }
