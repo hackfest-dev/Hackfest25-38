@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css'
 import Navbar from './components/Navbar'
+import Card from './components/Card'
 import Home1 from './components/Home1'
 import About from './components/About'
 import Navbar2 from './components/Navbar2';
@@ -30,6 +31,10 @@ function App() {
     {
       path: "/interface",
       element: <><Interface/></>,
+    },
+    {
+      path: "/card",
+      element: <><Card/></>,
     }
   ])
     {
