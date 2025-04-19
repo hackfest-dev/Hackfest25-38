@@ -20,7 +20,7 @@ const home = () => {
       return;
     }
 
-    fetch(`http://localhost:3001/profile?id=${userId}`)
+    fetch(`http://localhost:3001/api/profile?id=${userId}`)
       .then((res) => res.json())
       .then((data) => {
         setUser({
