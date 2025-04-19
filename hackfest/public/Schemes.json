@@ -1,5 +1,5 @@
-const data = {
-     "records" : [
+{
+  "records": [
     {
       "id": 1,
       "scheme_name": "PM-KUSUM",
