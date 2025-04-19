@@ -102,9 +102,11 @@ const home = () => {
           </div>
         </div>
       </div>
+      <div className="container1">
       <div className="scheme-hub">
       <SchemeUpdates />
     </div>
+      </div>
     </>
   );
 };

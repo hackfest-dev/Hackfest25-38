@@ -128,5 +128,46 @@
     font-size: 18px;
     margin-top: 5px;
   }
+
+
+.container1 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;  
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #f0f2f5, #e2e6ea)  
+}
+
+.scheme-hub {
+  background: linear-gradient(to top, #4CAF50, #81C784);
+  padding: 30px;
+  width:80%;
+  max-width: 1200px;
+  max-height: 80vh;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+@media (max-width: 480px) {
+  .scheme-hub {
+      width: 90%;
+      padding: 20px;
+      margin: 10px;
+  }
+}
+
+
+
   
 
