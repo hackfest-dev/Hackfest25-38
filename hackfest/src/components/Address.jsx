@@ -42,7 +42,7 @@ const handleSubmit = async (e) =>
     try {
         const res = await axios.post('http://localhost:3001/address',data);
         setSuccessMsg('Added your waste details succesfully');
-        navigate('oplaced');
+        navigate('/oplaced');
     } catch(err) {
         console.error("Error submitting form:",err);
     }

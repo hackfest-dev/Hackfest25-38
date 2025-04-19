@@ -18,7 +18,7 @@ const Card=({productImage,productName,productDescription,productPrice,productQua
                 <p><b>Description :</b>{productDescription}</p>
                 <p><b>Price :</b>{productPrice}</p>
                 <p><b>Quantity :</b>{productQuantity}</p>
-                <button onClick={Buywaste}>Buy</button>
+                <button className='button' onClick={Buywaste}>Buy</button>
             </description>
     </div>
     );
