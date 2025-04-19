@@ -11,7 +11,7 @@
     overflow: hidden;
     margin-bottom: 20px;
 }
-.button{
+button{
     width:20%;
     height:50%;
     background-color: green;
