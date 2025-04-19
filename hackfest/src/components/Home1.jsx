@@ -45,10 +45,13 @@ const home = () => {
 
   return (
     <>
+    <div className="cont">
       <div classname="welcome">
-        <h1>Welcome Farmer {user.username || "User"}!</h1>
+        <div className="welcome-text">
+          <h1>Welcome Farmer {user.username || "User"}!</h1>
+        </div>
       </div>
-
+      <div className="welcome-image">
       <div className="weather-app">
         <div className="search">
           <div className="search-top">
@@ -102,6 +105,8 @@ const home = () => {
           </div>
         </div>
       </div>
+      </div>
+    </div>
       <div className="container1">
       <div className="scheme-hub">
       <SchemeUpdates />

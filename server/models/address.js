@@ -7,7 +7,6 @@ const AddressSchema = new mongoose.Schema({
   pincode: String,  
   phoneno: String,  
 
-  productName: String,
 });
 
 const AddressModel = mongoose.model('Address', AddressSchema);
