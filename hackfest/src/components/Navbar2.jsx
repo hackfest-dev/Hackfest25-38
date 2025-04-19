@@ -10,7 +10,7 @@ function Navbar2() {
                 <h1>Agrigo</h1>
             </div>
             <div className="nav-links">
-                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/home2">Home</NavLink></li>
                 <li><NavLink to="/buywaste">Buy waste</NavLink></li>
                 <li><NavLink to="/orderdetails">Order details</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
