@@ -46,7 +46,7 @@ const home = () => {
   return (
     <>
       <div classname="welcome">
-        <h1>Welcome {user.username || "User"}!</h1>
+        <h1>Welcome Farmer {user.username || "User"}!</h1>
       </div>
 
       <div className="weather-app">
