@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import sunny from "../images/sunny.png";
 import './Home.css'
+import SchemeUpdates from "./SchemeUpdates";
+
 
 const Home2 =() => {
     const [location, setLocation] = useState("");
@@ -106,6 +108,9 @@ const Home2 =() => {
              </div>
            </div>
            </div>
+           <div className="scheme-hub">
+      <SchemeUpdates />
+    </div>
          </div>
             </>
 
