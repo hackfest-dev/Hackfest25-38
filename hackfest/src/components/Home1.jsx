@@ -102,6 +102,9 @@ const home = () => {
           </div>
         </div>
       </div>
+      <div className="scheme-hub">
+      <SchemeUpdates />
+    </div>
     </>
   );
 };

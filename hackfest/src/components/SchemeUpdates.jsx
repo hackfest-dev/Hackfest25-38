@@ -5,7 +5,7 @@ const SchemeUpdates = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    fetch("/Schemes.json")
+    fetch("./Schemes.json")
       .then((res) => res.json())
       .then((data) => setSchemes(data.records));
   }, []);
