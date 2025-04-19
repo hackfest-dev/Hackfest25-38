@@ -24,6 +24,14 @@ app.use('/api', buyWasteRoute);
 const profileRoute = require('./routes/profile');
 app.use('/api',profileRoute);
 
+const buyerOrderRoutes = require('./routes/buyerOrders');
+app.use('/api',buyerOrderRoutes);
+
+
+const sellerOrderRoutes = require('./routes/sellerOrders');
+app.use('/api',sellerOrderRoutes);
+
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
     console.log(`Server started on port ${3001}`);
