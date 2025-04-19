@@ -135,10 +135,11 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;  
-  align-items: center;  
+  align-items: center; 
+  color: black; 
   padding: 20px;
   box-sizing: border-box;
-  background: linear-gradient(to bottom, #f0f2f5, #e2e6ea)  
+  background: transparent 
 }
 
 .scheme-hub {
