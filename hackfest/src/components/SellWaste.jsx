@@ -32,7 +32,7 @@ function Sellwaste() {
 
       setSuccessMsg('Added your waste details successfully!');
       reset(); 
-      navigate('/home', { state: data }); 
+      navigate('/splaced', { state: data }); 
     } catch (err) {
       console.error('Submit error:', err);
     }
