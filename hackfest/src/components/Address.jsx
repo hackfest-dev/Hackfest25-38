@@ -40,7 +40,7 @@ const handleSubmit = async (e) =>
     };
 
     try {
-        const res = await axios.post('http://localhost:3001/address',data);
+        const res = await axios.post('http://localhost:3001/api/address',data);
         setSuccessMsg('Added your waste details succesfully');
         navigate('/oplaced');
     } catch(err) {

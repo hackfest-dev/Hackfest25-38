@@ -24,6 +24,9 @@ app.use('/api', buyWasteRoute);
 const profileRoute = require('./routes/profile');
 app.use('/api',profileRoute);
 
+const addressRoute = require('./routes/address');
+app.use('/api',addressRoute);
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
     console.log(`Server started on port ${3001}`);
