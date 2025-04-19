@@ -1,0 +1,25 @@
+.order-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .address-details,
+  .product-details {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  .product-image {
+    max-width: 100px;
+    height: auto;
+  }
+  

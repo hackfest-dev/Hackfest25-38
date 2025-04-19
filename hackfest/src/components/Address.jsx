@@ -33,10 +33,6 @@ const handleSubmit = async (e) =>
         pincode,
         phoneno,
         productName: product.productName,
-        productDescription: product.productDescription, 
-        productPrice: product.productPrice,
-        productQuantity: product.productQuantity,
-        productImage: product.productImage,
     };
 
     try {
