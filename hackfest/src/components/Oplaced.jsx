@@ -10,7 +10,7 @@ function Oplaced() {
         navigate('/home2');
     }
     const order = (e) => {
-        navigate('/orderdetails');
+        navigate('/order');
     }
 
     return(

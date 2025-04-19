@@ -10,8 +10,12 @@ function Order() {
             </div>
             <div className='order-description'>
                 <h2>Name : sugar cane</h2>
-                <p>Your order has been placed successfully. Thank you for your purchase!</p>
-                <p>We will notify you once your order is shipped.</p>
+                <p>description : sugar cane waste</p>
+                <p>price :15 </p>
+                <p>Quantity :5 </p>
+                <p>Address : Uppunda</p>
+                <p>Pincode : 5</p>
+                <p>Phone no : 1234567890</p>
             </div>
         </div>
     </div>

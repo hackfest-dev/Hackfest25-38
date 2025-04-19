@@ -22,5 +22,7 @@
     margin-left: 2.5vh;
 }
 .order-description{
-    
+   position: relative;
+   top: -20vh;
+   right: -30vh;
 }
