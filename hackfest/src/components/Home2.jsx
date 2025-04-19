@@ -108,6 +108,8 @@ const Home2 =() => {
              </div>
            </div>
            </div>
+           </div>
+           <div className="container1">
            <div className="scheme-hub">
       <SchemeUpdates />
     </div>
