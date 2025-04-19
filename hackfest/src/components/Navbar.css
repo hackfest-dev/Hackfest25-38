@@ -1,12 +1,14 @@
 nav {
+  margin-top: 10px;
   width: 100%;
-  height: 7vh;
+  height: 5vh;
   display: flex;
-  justify-content: space-be;
+  justify-content: space-between;
+  position: fixed;
 }
 .logo {
   width: 20%;
-  background-color: white;
+  background-color: #f0f8ff7d;
   color: black;
   display: flex;
   justify-content: center;
@@ -16,7 +18,7 @@ nav {
 .nav-links {
   text-decoration: none;
   width: 60%;
-  background-color: aliceblue;
+  background-color: #f0f8ff7d;
   display: flex;
   border-radius: 20px;
   margin-left: 20px;
@@ -31,11 +33,11 @@ nav {
   color: black;
   padding: 10px 20px;
   font-size: 18px;
-  font-weight: bold;
+ 
 }
 .profile {
   width: 20%;
-  background-color: aliceblue;
+  background-color: #f0f8ff7d;
   border-radius: 20px;
   margin-left: 20px;
   display: flex;
@@ -50,7 +52,7 @@ nav {
   color: black;
   padding: 10px 20px;
   font-size: 18px;
-  font-weight: bold;
+
 }
 .img {
   width: 10px;

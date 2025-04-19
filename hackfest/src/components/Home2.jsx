@@ -15,6 +15,24 @@ const Home2 =() => {
 
     const userId = localStorage.getItem("userId");
 
+    useEffect(() => {
+        if (!userId) {
+          return;
+        }
+    
+        fetch(`http://localhost:3001/api/profile?id=${userId}`)
+          .then((res) => res.json())
+          .then((data) => {
+            setUser({
+              username: data.username,
+              name: data.name,
+              email: data.email,
+            });
+          })
+          .catch((err) => {
+            console.error("Error fetching profile:", err);
+          });
+      }, [userId]);
 
     const search = async () => {
       if (!location) return;
@@ -28,7 +46,7 @@ const Home2 =() => {
     return (
       <>
       <div classname="welcome" >
-    
+      <h1>Welcome Buyer {user.username || "User"}!</h1>
       </div>
 
       <div className="weather-app">
