@@ -19,6 +19,7 @@ import Address from './components/Address'
 import Oplaced from './components/Oplaced';
 import Orderdetails from './components/Orderdetails';
 import Splaced from './components/Splaced';
+import Order from './components/Order';
 
 function App() {
   const router = createBrowserRouter([
@@ -77,7 +78,10 @@ function App() {
     {
       path: "/splaced",
       element: <><Navbar2/><Splaced/></>,
-    
+    },
+    {
+      path: "/order",
+      element: <><Navbar2/><Order/></>,
     }
   ])
   {

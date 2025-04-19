@@ -1,0 +1,26 @@
+.order{
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.order-container{
+    width: 90%;
+    height: 30vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.order-image{
+    background-image: url('./src/images/sugar.webp');
+    background-size: cover;
+    background-position: center;
+    width: 25vh;
+    height: 25vh;
+    margin-top: 2.5vh;
+    margin-left: 2.5vh;
+}
+.order-description{
+    
+}
