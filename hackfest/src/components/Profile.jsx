@@ -38,6 +38,7 @@ function Profile() {
 
   return (
     <>
+    <div style={styles.profile}>
     <div style={styles.container}>
       <h2 style={styles.heading}>Profile</h2>
       <div style={styles.infoBox}>
@@ -45,7 +46,8 @@ function Profile() {
         <p><strong>Email:</strong> {user.email}</p>
       </div>
     </div>
-    <button onClick={btn}>Log out</button>
+    <button className='pbutton' onClick={btn}>Log out</button>
+    </div>
     </>
   );
 }
@@ -53,6 +55,15 @@ function Profile() {
 export default Profile;
 
 const styles = {
+  profile: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width:'100%',
+    height: '100vh',
+    flexDirection: 'column',
+
+  },
   container: {
     padding: '2rem',
     maxWidth: '500px',
@@ -69,11 +80,10 @@ const styles = {
     fontSize: '1.1rem',
     lineHeight: '1.8'
   },
-  button:{
-    padding: '0.5rem 1rem',
+  pbutton:{
     backgroundColor: '#007BFF',
     color: '#fff',
-    border: 'none',
+    
     borderRadius: '5px',
     cursor: 'pointer',
     fontSize: '1rem',
